@@ -1,4 +1,4 @@
-//  write a program using prompt function to take input of age as a value from the user and use a text to tell him if he can drive ? 
+// 1. write a program using prompt function to take input of age as a value from the user and use a text to tell him if he can drive ? 
 // let age = prompt("Enter your age")
 // age = Number.parseInt(age)
 
@@ -12,6 +12,27 @@
 //     alert("You cannot drive")
 // }
 
+
+// 2.Use of confirm to see the prompt again
+// let runAgain = true;
+// const canDrive = (age)=>{
+//     return age >= 18 ? true : false
+// }
+// while (runAgain){
+//     let age = prompt("Enter your age ")
+//     age = Number.parseInt(age)
+
+//     if(canDrive(age)){
+//         alert("Yes you can drive")
+//     }
+//     else{
+//         alert("You cannot drive")
+//     }
+// }
+
+
+// 3. use console error to log the error if the age entered is negative
+
 let runAgain = true;
 const canDrive = (age)=>{
     return age >= 18 ? true : false
@@ -19,6 +40,10 @@ const canDrive = (age)=>{
 while (runAgain){
     let age = prompt("Enter your age ")
     age = Number.parseInt(age)
+    if(age<0){
+        console.error("Please enter a valid age")
+        break;
+    }
 
     if(canDrive(age)){
         alert("Yes you can drive")
