@@ -33,22 +33,33 @@
 
 // 3. use console error to log the error if the age entered is negative
 
-let runAgain = true;
-const canDrive = (age)=>{
-    return age >= 18 ? true : false
-}
-while (runAgain){
-    let age = prompt("Enter your age ")
-    age = Number.parseInt(age)
-    if(age<0){
-        console.error("Please enter a valid age")
-        break;
-    }
+// let runAgain = true;
+// const canDrive = (age)=>{
+//     return age >= 18 ? true : false
+// }
+// while (runAgain){
+//     let age = prompt("Enter your age ")
+//     age = Number.parseInt(age)
+//     if(age<0){
+//         console.error("Please enter a valid age")
+//         break;
+//     }
 
-    if(canDrive(age)){
-        alert("Yes you can drive")
-    }
-    else{
-        alert("You cannot drive")
-    }
+//     if(canDrive(age)){
+//         alert("Yes you can drive")
+//     }
+//     else{
+//         alert("You cannot drive")
+//     }
+// }
+
+
+// 4.Write a program to change the url to google.com if user enters a number greater than 4
+
+
+let number = prompt("Enter your number")
+number = Number.parseInt(number)
+
+if (number > 4) {
+  location.href = "https://google.com"
 }
