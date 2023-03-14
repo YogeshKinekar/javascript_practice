@@ -9,7 +9,7 @@ html,body{
 
 nav{
     display: flex;
-    background: cyan;
+    background: rgb(36, 38, 38);
 }
 nav li{
     list-style: none;
