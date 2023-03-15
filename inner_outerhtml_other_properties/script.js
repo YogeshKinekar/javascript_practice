@@ -9,9 +9,12 @@
 // first.innerHTML 
 // first.innerHTML = "<i>hey I am italic</i>" 
 
-first.outerHTML 
-first.outerHTML = "<div>hey</div>"
+// first.outerHTML 
+// first.outerHTML = "<div>hey</div>"
 
-// document.body.firstChild.data 
-// console.log(document.body.textContent)
+// document.body.firstChild.data
+
+console.log(document.body.textContent)
+
 // first.hidden = false
+
