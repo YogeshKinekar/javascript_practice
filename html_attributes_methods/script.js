@@ -6,6 +6,8 @@ console.log(first.hasAttribute("style"))
 // first.setAttribute("hidden", "true") 
 // first.setAttribute("class", "true sat") 
 
-first.removeAttribute("class") 
+// first.removeAttribute("class") 
+
+console.log(first.attributes)
 
 
