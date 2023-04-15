@@ -7,3 +7,8 @@ dailyActivities[3] = 'exercise';
 
 console.log(dailyActivities); // ['eat', 'sleep', 'exercise']
 
+
+
+
+
+
