@@ -1,0 +1,25 @@
+<!-- The size property returns the number of elements in a Map -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Maps</h2>
+<p>Using Map.size:</p>
+
+<p id="view"></p>
+
+<script>
+// Create a Map
+const vegetables = new Map([
+  ["broccoli", 100],
+  ["cauliflower", 60],
+  ["tomato", 50],
+  ["potato", 80],
+  ["drumstick", 120]
+]);
+
+document.getElementById("view").innerHTML = vegetables.size;
+</script>
+
+</body>
+</html>
