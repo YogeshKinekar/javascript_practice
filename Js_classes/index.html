@@ -1,3 +1,4 @@
+<!-- Create a Class method named "age", that returns the Car age: -->
 <!DOCTYPE html>
 <html>
 <body>
@@ -19,6 +20,39 @@ const myCar2 = new Car("Audi", 2019);
 
 document.getElementById("demo").innerHTML =
 myCar1.name + " " + myCar2.name;
+</script>
+
+</body>
+</html>
+
+
+<!-- You can send parameters to Class methods: -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Class Method</h1>
+<p>Pass a parameter into the "age()" method.</p>
+
+<p id="demo"></p>
+
+<script>
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+  age(x) {
+    return x - this.year;
+  }
+}
+
+const date = new Date();
+let year = date.getFullYear();
+
+const myCar = new Car("Ford", 2014);
+document.getElementById("demo").innerHTML=
+"My car is " + myCar.age(year) + " years old.";
 </script>
 
 </body>
