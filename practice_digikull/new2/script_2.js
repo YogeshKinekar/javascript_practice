@@ -26,3 +26,6 @@ function bubble_sort (arr) {
     };
     console.log(bubble_sort([1,0,9,6,8,3,10]))
     module.exports = {bubble_sort};
+
+
+
