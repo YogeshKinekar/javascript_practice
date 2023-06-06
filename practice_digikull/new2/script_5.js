@@ -15,3 +15,20 @@ while (true) {
     }
     min++;
 }
+
+
+
+
+// Find the Prime numbers from the given array and return the array of prime numbers 
+// in the console if no prime number in the array return the empty array.
+
+const arr = [4,5,8,6,9,7,12];
+function isPrime(num) {
+  for(let i=2; num>i; i++){
+    if(num % i ===0){
+      return false;
+    }
+  }
+  return num > 1;
+}
+console.log(arr.filter(isPrime));
