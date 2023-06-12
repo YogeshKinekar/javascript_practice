@@ -1,3 +1,6 @@
+// Promises makes code eassy and understandable
+// Promises are fullfield, rejected, settled.
+
 // Program with a promise 
 
 const makeAPromise = true;
